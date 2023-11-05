@@ -1,0 +1,69 @@
+.card {
+  background: #232323;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.card_img {
+  background: gray;
+  height: 65%;
+  width: 90%;
+  border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0;
+}
+
+span {
+  background-color: grey;
+  border-radius: 2px;
+  padding: 3px;
+  margin-left: 3px;
+}
+
+.normal {
+  background-color: grey;
+}
+
+.electric {
+  background-color: yellow;
+}
+
+.water,
+.flying {
+  background-color: aqua;
+}
+
+.grass {
+  background-color: green;
+}
+
+.poison,
+.bug {
+  background-color: rgb(94, 50, 59);
+}
+
+.fire {
+  background-color: red;
+}
